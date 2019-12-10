@@ -1,0 +1,93 @@
+
+h1{
+    text-align: center;
+}  
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid black;
+    empty-cells: hide;
+    height: 50px;
+}
+.empty{
+        border:rgba(0,0,0,0);
+}
+.nom{
+    font-weight: bold;
+    text-align: center;
+}
+.mass{
+    font-size: 0.7em;
+    position: relative; 
+    text-align: right;
+}
+.numero{
+    font-size: 0.7em;
+    position: relative; 
+    text-align: left;
+}
+
+td.AlkaliMetal{
+        background-color: #ffb3d9;
+}
+td.AlkalineEarthMetal{
+        background-color: #d699ff;
+}
+td.TransitionMetal{
+        background-color: #809fff;
+}
+td.Metalloid{
+        background-color: #99cc00;
+}
+td.PostTransitionMetal{
+        background-color:#00b300;
+}
+td.NobleGas{
+        background-color: #cc9900;
+}
+td.Lanthanide{
+        background-color: cyan;
+}
+td.Actinide{
+        background-color:#4dffdb;
+}
+img{
+    display: block;
+    position:relative;
+    height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+        td.nonmetal {background-color: red;}
+        img{left:20%;}
+        .nom{font-size: 0.7em;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+        .nonmetal {background: green;}
+        img{left:25%;}
+        .nom{font-size: 1em;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .nonmetal {background: blue;}
+        img{left:60%;}
+        .nom{font-size: 1em;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1000px) {
+        .nonmetal {background: red;}
+        img{left:70%;}
+        .nom{font-size: 1em;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+        .nonmetal {background: pink;}
+        img{left:75%;}
+        .nom{font-size: 1.3em;}
+}

@@ -1,0 +1,175 @@
+body{
+    background-color:#595959;
+}
+#frame{
+    position: absolute;
+    border: 5px, solid;
+    width: 1500px;
+    height: 800px;
+    left: 300px;
+    right: 300px;
+}
+#title{
+    width: 100%;
+    height: 200px;
+    background-color: #909090;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#head_img{
+    position: relative;
+    left:20px;
+    top: 20px;
+    width: 40%;
+    height: 80%;
+}
+#reload_img{
+    position: relative;
+    top: -120px;
+    left: 840px;
+    width: 20px;
+    height: 20px;
+}
+#loupe_img{
+    position: relative;
+    top: 60px;
+    left: 560px;
+}
+#close_img{
+    position: relative;
+    top: 20px;
+    left: 560px;
+    width: 20px;
+    height: 20px;
+}
+#left{
+    position: relative;
+    width: 180px;
+    height: 450px;
+    left: 25px;
+    top: 230px;
+    background-color: #8c8c8c;   
+}
+.left_image{
+    position: relative;
+    top:20px;
+    width:73px ;
+    height: 73px;
+    left: 55px;
+}
+.middle{
+    position: relative;
+    width: 1050px;
+    height: 600px;
+    left: 230px;
+    top: -220px;
+    background-color: #8c8c8c;  
+}
+#right{
+    position: relative;
+    text-align: right;
+    width: 180px;
+    height: 450px;
+    left: 1305px;
+    top: -820px;
+    background-color: #8c8c8c;   
+}
+
+.right_image{
+    position: relative;
+    top:20px;
+    right: 30px;
+}
+
+#wall{
+    position: relative;
+    background-image: url("resources/brick.jpg");
+    height:80px;
+    width:120px;
+    top: 20px;
+    left: 30px;
+}
+#book_img{
+    position: relative;
+    right: 40px;
+    height: 120px;
+    width: 90px;
+}
+#towel_img{
+    position: relative;
+    right: 60px;
+    height: 80px;
+    width: 80px;
+}
+#brick_img{
+    height: 80px;
+    width: 150px;
+}
+
+#formula{
+    position: relative;
+    height: 200px;
+    width: 550px;
+    top:-760px;
+    left: -50px;
+    background-color: #80ff80;
+    z-index: 2;
+}
+
+#p1{
+    position: relative;
+    height: 60px;
+    width: 200px;
+    top:-1320px;
+    left: 300px;
+    background-color: #80ff80;
+    z-index: 2;
+    display:none
+}
+
+#title, #left, .middle, #right, #formula{
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+}
+strong{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    position: relative;
+    font-size: 20px;
+    left: 10px;
+    font-family: sans-serif;
+}
+.fs{
+    margin-bottom: 0%;
+}
+.ss{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+input{
+    position: relative;
+    left:10px;
+}
+input[name="answer"]{
+    width:430px;
+}
+.normal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    padding-top: 40px;
+}
+button{
+    position: relative;
+    left:10px;
+}
+.slide_img{
+    position: relative;
+    left:10px;
+    top:10px;
+}
+
+
+
+
